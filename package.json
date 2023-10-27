@@ -1,7 +1,7 @@
 {
-  "name": "resume-builder",
+  "name": "My-Resume-Builder",
   "version": "1.0.0",
-  "homepage": "https://manishavidhatedhole.github.io/resume-builder",
+  "homepage": "https://manishavidhatedhole.github.io/My-Resume-Builder",
   "private": true,
   "description": "Resume Builder Website project with JavaScript,HTML,CSS and React.",
   "main": "index.js",
