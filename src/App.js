@@ -4,7 +4,7 @@ import DetailsFilling from "./components/pages/DetailsFilling";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Main from "./components/Main";
-import AboutMe from "./components/pages/AboutMe";
+import AboutUs from "./components/pages/AboutUs";
 import MyResume from "./components/pages/MyResumes";
 import Preview from "./components/Preview";
 import { Provider } from "react-redux";
@@ -46,7 +46,7 @@ function App() {
                   element={<DetailsFilling />}
                 />
                 <Route exact path="/my-resumes" element={<MyResume />} />
-                <Route exact path="/about-us" element={<AboutMe />} />
+                <Route exact path="/about-us" element={<AboutUs />} />
               </Routes>
             </div>
           </DataContextPro>

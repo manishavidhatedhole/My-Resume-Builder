@@ -25,7 +25,7 @@ const MediaIcons = (props) => {
 
 // About Me Content . .
 
-const AboutMe = () => {
+const AboutUs = () => {
   return (
     <>
       <Container>
@@ -60,8 +60,8 @@ const AboutMe = () => {
               simplifies the process of creating a standout resume.
               <br />
               My aim : Empower job seekers with responsive, user-centric
-              resumes. Your success starts here. Happy resume crafting!🌟🚀📄
-            </Typography>
+              resumes. Your success starts here. 
+              </Typography>
           </Grid>
           <Grid
             container
@@ -102,4 +102,4 @@ const AboutMe = () => {
   );
 };
 
-export default AboutMe;
+export default AboutUs;
