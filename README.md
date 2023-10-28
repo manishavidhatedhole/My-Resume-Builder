@@ -15,7 +15,7 @@ Welcome to the Resume Builder Website project! This project is developed by Mani
 
 ## Features
 
-Our Resume Builder App(Website) offers the following key features:
+My Resume Builder App(Website) offers the following key features:
 
 - **User-Friendly Interface**: The website offers an intuitive and easy-to-navigate interface for creating and editing resumes.
 
@@ -56,7 +56,7 @@ npm install
 
 ## Contributing
 
-- ManishaDhole ([GitHub Profile]( https://manishavidhatedhole.github.io/My-Resume-Builder/))**
+- ManishaDhole ([GitHub Profile]( https://github.com manishavidhatedhole/My-Resume-Builder/))**
 - 
 
 ## WebLink
