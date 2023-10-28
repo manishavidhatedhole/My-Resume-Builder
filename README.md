@@ -1,6 +1,4 @@
-# Resume Builder App([Website]( https://manishavidhatedhole.github.io/My-Resume-Builder/
-Last deployed by @manishavidhatedhole manishavidhatedhole yesterday
-))
+# Resume Builder App([Website]( https://manishavidhatedhole.github.io/My-Resume-Builder/))
 
 ## Table of Contents
 
@@ -58,16 +56,12 @@ npm install
 
 ## Contributing
 
-- ManishaDhole ([GitHub Profile]( https://manishavidhatedhole.github.io/My-Resume-Builder/
-Last deployed by @manishavidhatedhole manishavidhatedhole yesterday
-))**
+- ManishaDhole ([GitHub Profile]( https://manishavidhatedhole.github.io/My-Resume-Builder/))**
 - 
 
 ## WebLink
 
-- **AlmaBetter Front-End Capstone Project** ([WebLink]( https://manishavidhatedhole.github.io/My-Resume-Builder/
-Last deployed by @manishavidhatedhole manishavidhatedhole yesterday
-))
+- **AlmaBetter Front-End Capstone Project** ([WebLink]( https://manishavidhatedhole.github.io/My-Resume-Builder/))
 
 -**Thank you for choosing our Resume Builder Website.** 
 
