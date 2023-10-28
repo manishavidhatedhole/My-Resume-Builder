@@ -63,5 +63,5 @@ npm install
 
 - **AlmaBetter Front-End Capstone Project** ([WebLink]( https://manishavidhatedhole.github.io/My-Resume-Builder/))
 
--**Thank you for choosing our Resume Builder Website.** 
+-**Thank you for choosing my Resume Builder Website.** 
 
