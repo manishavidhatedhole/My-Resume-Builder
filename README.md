@@ -1,4 +1,4 @@
-# Resume Builder App([Website](https://react-resume-builder-project-8a25z1paj-himanshusinghsamant.vercel.app))
+# Resume Builder App([Website] https://manishavidhatedhole.github.io/My-Resume-Builder/
 
 ## Table of Contents
 
@@ -11,11 +11,11 @@
 
 ## Introduction
 
-Welcome to the Resume Builder Website project! This project is developed by Kundan, Prasad, Himanshu, and Pragati to provide a user-friendly platform for creating and managing resumes. Whether you are a job seeker or someone helping others build their resumes, our website aims to streamline the process and make it more efficient.
+Welcome to the Resume Builder Website project! This project is developed by Manisha Dhole to provide a user-friendly platform for creating and managing resumes. Whether you are a job seeker or someone helping others build their resumes, my website aims to streamline the process and make it more efficient.
 
 ## Features
 
-Our Resume Builder App(Website) offers the following key features:
+My Resume Builder App(Website) offers the following key features:
 
 - **User-Friendly Interface**: The website offers an intuitive and easy-to-navigate interface for creating and editing resumes.
 
@@ -56,12 +56,12 @@ npm install
 
 ## Contributing
 
-- ManishaDhole ([GitHub Profile](https://github.com/manishavidhatedole))**
+- ManishaDhole ([GitHub Profile]( https://manishavidhatedhole.github.io/My-Resume-Builder/)**
 - 
 
 ## WebLink
 
-- **AlmaBetter Front-End Capstone Project** ([WebLink](https://react-resume-builder-project-8a25z1paj-himanshusinghsamant.vercel.app))
+- **AlmaBetter Front-End Capstone Project** ([WebLink]( https://manishavidhatedhole.github.io/My-Resume-Builder/]))
 
 -**Thank you for choosing our Resume Builder Website.** 
-**Happy resume building! 📄✨**
+
