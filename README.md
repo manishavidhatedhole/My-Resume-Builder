@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Resume Builder App([Website] https://manishavidhatedhole.github.io/My-Resume-Builder/
+=======
+# Resume Builder App([Website]( https://manishavidhatedhole.github.io/My-Resume-Builder/))
+>>>>>>> 8b385631110112772e937030dad60afc855f98df
 
 ## Table of Contents
 
@@ -23,7 +27,7 @@ My Resume Builder App(Website) offers the following key features:
 
 - **Customization**: Customize each section of your resume, including personal details, work experience, education, skills, and more.
 
-- **Real-Time Preview**: See a live preview of your resume as you make changes, ensuring it looks just the way you want it to.
+- **Real-Time Preview**: See a live preview of your resume as you make changes, ensuring it looks just the way you want it to..
   
 - **Export Options**: Download your completed resume in PDF format, for easy sharing with potential employers.
 
@@ -56,12 +60,23 @@ npm install
 
 ## Contributing
 
+<<<<<<< HEAD
 - ManishaDhole ([GitHub Profile]( https://manishavidhatedhole.github.io/My-Resume-Builder/)**
+=======
+- ManishaDhole ([GitHub Profile]( https://github.com manishavidhatedhole/My-Resume-Builder/))**
+>>>>>>> 8b385631110112772e937030dad60afc855f98df
 - 
 
 ## WebLink
 
+<<<<<<< HEAD
 - **AlmaBetter Front-End Capstone Project** ([WebLink]( https://manishavidhatedhole.github.io/My-Resume-Builder/]))
 
 -**Thank you for choosing our Resume Builder Website.** 
 
+=======
+- **AlmaBetter Front-End Capstone Project** ([WebLink]( https://manishavidhatedhole.github.io/My-Resume-Builder/))
+
+-**Thank you for choosing my Resume Builder Website.** 
+
+>>>>>>> 8b385631110112772e937030dad60afc855f98df
