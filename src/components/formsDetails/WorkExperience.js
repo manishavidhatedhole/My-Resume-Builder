@@ -254,7 +254,7 @@ const WorkExperience = () => {
             variant="contained"
             onClick={() => Navigate("/details-filling-page/education")}
             sx={{
-              backgroundColor: "black",
+              backgroundColor: "green",
               mt: "10px",
               fontWeight: "bold",
               mr: "10px",
@@ -266,7 +266,7 @@ const WorkExperience = () => {
             onClick={handleSubmit(onSubmit)}
             disabled={!isDirty || !isValid}
             variant="contained"
-            sx={{ backgroundColor: "black", mt: "10px", fontWeight: "bold" }}
+            sx={{ backgroundColor: "green", mt: "10px", fontWeight: "bold" }}
           >
             Next
           </Button>

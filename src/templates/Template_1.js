@@ -6,7 +6,7 @@ import { useSelector } from "react-redux";
 import { useMyContext } from "../context/Context";
 import "../../src/App.css";
 
-const Templates = () => {
+const Templates_1 = () => {
   //  In this Section We are Getting all data with the help  of useSelector which is stored in redux store like personalInfo Data , EducationData , WorkExperienceData and KeyskillData **************
 
   const { mode } = useMyContext();
@@ -36,7 +36,7 @@ const Templates = () => {
       >
         <Box
           sx={{
-            backgroundColor: "#fbf4f5",
+            backgroundColor: "#E6E6FA",
             width: { xs: "80vw", sm: "45vw", md: "35vw" },
             height:{md:'100vh'}
           }}
@@ -44,7 +44,7 @@ const Templates = () => {
           <Box
             sx={{
               height: "85px",
-              backgroundColor: "#f4c9c9",
+              backgroundColor: "#EE82EE",
               position: "relative",
             }}
           >
@@ -61,7 +61,7 @@ const Templates = () => {
                 <Typography
                   sx={{
                     fontSize: { xs: "16px", sm: "16px", md: "25px" },
-                    color: "grey",
+                    color: "black",
                     letterSpacing: 3,
                     marginLeft: "10px",
                   }}
@@ -104,7 +104,7 @@ const Templates = () => {
                 Address : {PersonalInfoData.Address}
               </Typography>
               <Typography sx={{ fontSize: "10px" }}>
-                City : {PersonalInfoData.City}
+                Website : {PersonalInfoData.Website}
               </Typography>
               <Typography sx={{ fontSize: "10px" }}>
                 State : {PersonalInfoData.State}
@@ -145,28 +145,28 @@ const Templates = () => {
                   );
                 })}
             </div>
-            <hr style={{ color: "#f4f4f7" }} />
 
-            <Box sx={{ width: "45%", marginLeft: "10px" }}>
-              <Typography sx={{ marginBottom: "15px" }}>EDUCATION</Typography>
-
-              <div>
-                <Typography sx={{ marginBottom: "20px" }}>
-                  {educationData.Type}
-                </Typography>
-                <Typography sx={{ fontSize: "12px" }}>
-                  {educationData.University}
-                </Typography>
-                <Typography sx={{ fontSize: "10px" }}>
-                  {educationData.Degree}
-                </Typography>
-                <span style={{ fontSize: "10px", fontWeight: "bold" }}>
-                  {educationData.StartYear}-
-                </span>
-                <span style={{ fontSize: "10px", fontWeight: "bold" }}>
-                  {educationData.EndYear}
-                </span>
-              </div>
+<hr style={{ color: "#f4f4f7"}} />
+<Box sx={{ width: "45%", marginLeft: "10px" }}>
+  <Typography sx={{ marginBottom: "10px" }}>EDUCATION</Typography>
+ 
+        <div>
+          <Typography sx={{ fontSize: "12px" }}>
+            {educationData.Type}
+          </Typography>
+          <Typography sx={{ fontSize: "10px" }}>
+            {educationData.University}
+          </Typography>
+          <Typography sx={{ fontSize: "10px" }}>
+            {educationData.Degree}
+          </Typography>
+          <span style={{ fontSize: "10px", fontWeight: "bold" }}>
+            {educationData.StartYear} -
+          </span>
+          <span style={{ fontSize: "10px", fontWeight: "bold" }}>
+            {educationData.EndYear}
+          </span>
+        </div>
 
               <hr style={{ color: "#f4f4f7" }} />
               <div style={{ marginTop: "10px" }}>
@@ -196,4 +196,4 @@ const Templates = () => {
   );
 };
 
-export default Templates;
+export default Templates_1;

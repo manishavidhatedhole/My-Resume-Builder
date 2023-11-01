@@ -4,7 +4,7 @@ import { Box } from "@mui/system";
 import { SocialMediaImg } from "../../data/Data";
 import { Link } from "react-router-dom";
 
-//  This Media Icons component  Displaying Social Media Icons. .
+//  This Media Icons component  Displaying Social Media Icons********************************
 
 const MediaIcons = (props) => {
   console.log(props.img);
@@ -23,7 +23,7 @@ const MediaIcons = (props) => {
   );
 };
 
-// About Me Content . .
+// About Us Content ***************************************************************************
 
 const AboutUs = () => {
   return (
@@ -44,7 +44,7 @@ const AboutUs = () => {
               color="inherit"
               textTransform={"capitalize"}
             >
-              Welcome to my Resume Builder App!
+              Welcome to my Resume Builder App!!!
               <Typography
                 sx={{
                   fontWeight: "bold",
@@ -52,16 +52,17 @@ const AboutUs = () => {
                   letterSpacing: 2,
                 }}
               >
-                Manisha Dhole
+                Manisha Dhole.
               </Typography>
-              My journey began with a simple idea - to empower job seekers like you
+              who came together to turn my shared vision into reality. My
+              journey began with a simple idea - to empower job seekers like you
               with a user-friendly and fully responsive resume builder app.
-              Using the power of React, I have crafted an application that
+              Using the power of React, we've crafted an application that
               simplifies the process of creating a standout resume.
               <br />
               My aim : Empower job seekers with responsive, user-centric
-              resumes. Your success starts here. 
-              </Typography>
+              resumes. Your success starts here. Happy coding!
+            </Typography>
           </Grid>
           <Grid
             container

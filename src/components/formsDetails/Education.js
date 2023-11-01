@@ -235,7 +235,7 @@ const Education = () => {
             onClick={() => Navigate("/details-filling-page/personal-details")}
             variant="contained"
             sx={{
-              backgroundColor: "black",
+              backgroundColor: "green",
               mt: "10px",
               fontWeight: "bold",
               mr: "10px",

@@ -144,7 +144,7 @@ const KeySkills = () => {
               variant="contained"
               onClick={() => Navigate("/details-filling-page/work-experience")}
               sx={{
-                backgroundColor: "black",
+                backgroundColor: "green",
                 mt: "10px",
                 fontWeight: "bold",
                 mr: "10px",
@@ -156,7 +156,7 @@ const KeySkills = () => {
               disabled={!isDirty || !isValid}
               onClick={handleSubmit(onSubmit)}
               variant="contained"
-              sx={{ backgroundColor: "black", mt: "10px", fontWeight: "bold" }}
+              sx={{ backgroundColor: "green", mt: "10px", fontWeight: "bold" }}
             >
               Preview
             </Button>

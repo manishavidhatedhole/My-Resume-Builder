@@ -32,7 +32,7 @@ const Template_3 = () => {
       >
         <Box
           sx={{
-            backgroundColor: "white",
+            backgroundColor: "#FFF0F5",
             width: { xs: "80vw", sm: "45vw", md: "35vw" },
             border: "1px solid grey",
             height:{md:'100vh'}
@@ -41,7 +41,7 @@ const Template_3 = () => {
           <Box
             sx={{
               height: "85px",
-              backgroundColor: "#00b7ff",
+              backgroundColor: "#FF69B4",
               position: "relative",
             }}
           >
@@ -49,7 +49,7 @@ const Template_3 = () => {
               <div style={{ display: "flex" }}>
                 <Typography
                   sx={{                     fontSize: { xs: "16px", sm: "16px", md: "25px" },
-                  letterSpacing: 3, color: "white" }}
+                  letterSpacing: 3, color: "grey" }}
                 >
                   {PersonalInfoData.FirstName}
                 </Typography>
@@ -57,7 +57,7 @@ const Template_3 = () => {
                   sx={{
                     fontSize: { xs: "16px", sm: "16px", md: "25px" },
 
-                    color: "black",
+                    color: "grey",
                     letterSpacing: 3,
                     marginLeft: "10px",
                   }}
@@ -100,10 +100,10 @@ const Template_3 = () => {
                 Address : {PersonalInfoData.Address}
               </Typography>
               <Typography sx={{ fontSize: "10px" }}>
-                City : {PersonalInfoData.City}
+                State : {PersonalInfoData.State}
               </Typography>
               <Typography sx={{ fontSize: "10px" }}>
-                State : {PersonalInfoData.State}
+                Website : {PersonalInfoData.Website}
               </Typography>
               <Typography sx={{ fontSize: "10px" }}>
                 PinCode : {PersonalInfoData.PinCode}

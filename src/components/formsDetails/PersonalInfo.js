@@ -107,7 +107,7 @@ const PersonalInfo = () => {
 
           <TextField
             sx={inputStyle}
-            label="MobileNo"
+            label="Mobile"
             type="number"
             varient="outlined"
             InputProps={{
@@ -115,10 +115,10 @@ const PersonalInfo = () => {
                 <InputAdornment position="start">+91 </InputAdornment>
               ),
             }}
-            {...register("MobileNo", { required: "mobile no. is required!" })}
+            {...register("Mobile", { required: "mobile. is required!" })}
           />
-          {errors.MobileNo && (
-            <p style={{ color: "red" }}>{errors.MobileNo.message}</p>
+          {errors.Mobile && (
+            <p style={{ color: "red" }}>{errors.Mobile.message}</p>
           )}
 
           <TextField
@@ -134,12 +134,12 @@ const PersonalInfo = () => {
 
           <TextField
             sx={inputStyle}
-            label="City"
+            label="Website"
             type="text"
             varient="outlined"
-            {...register("City", { required: "city is required!" })}
+            {...register("Website", { required: "website is required!" })}
           />
-          {errors.City && <p style={{ color: "red" }}>{errors.City.message}</p>}
+          {errors.Website && <p style={{ color: "red" }}>{errors.Website.message}</p>}
 
           <TextField
             sx={inputStyle}
@@ -181,7 +181,7 @@ const PersonalInfo = () => {
           onClick={handleSubmit(onSubmit)}
           type="submit"
           variant="contained"
-          sx={{ backgroundColor: "black", mt: "10px", fontWeight: "bold" }}
+          sx={{ backgroundColor: "green", mt: "10px", fontWeight: "bold" }}
         >
           Next
         </Button>

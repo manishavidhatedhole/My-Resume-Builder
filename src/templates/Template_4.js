@@ -32,7 +32,7 @@ const Template_4 = () => {
       >
         <Box
           sx={{
-            backgroundColor: "#ebffdd",
+            backgroundColor: "#E0FFFF",
             width: { xs: "80vw", sm: "45vw", md: "35vw" },
             border: "1px solid grey",
             height:{md:'100vh'}
@@ -41,7 +41,7 @@ const Template_4 = () => {
           <Box
             sx={{
               height: "85px",
-              backgroundColor: "white",
+              backgroundColor: "#7B68EE",
               position: "relative",
             }}
           >
@@ -49,7 +49,7 @@ const Template_4 = () => {
               <div style={{ display: "flex" }}>
                 <Typography
                   sx={{                     fontSize: { xs: "16px", sm: "16px", md: "25px" },
-                  letterSpacing: 3, color: "black" }}
+                  letterSpacing: 3, marginLeft: "25px", color: "white" }}
                 >
                   {PersonalInfoData.FirstName}
                 </Typography>
@@ -58,7 +58,7 @@ const Template_4 = () => {
                     fontSize: { xs: "16px", sm: "16px", md: "25px" },
                     letterSpacing: 3,
                     marginLeft: "10px",
-                    color: "grey",
+                    color: "white",
                   }}
                 >
                   {PersonalInfoData.LastName}
@@ -78,7 +78,7 @@ const Template_4 = () => {
                 );
               })}
             </div>
-            <Box sx={{ position: "absolute", top: "10px", left: "20px" }}>
+            <Box sx={{ position: "absolute", top: "10px", left: "1px" }}>
               <img
                 style={{ width: "60px", height: "60px", borderRadius: "50%" }}
                 src={profileData}
@@ -99,12 +99,12 @@ const Template_4 = () => {
                 Address : {PersonalInfoData.Address}
               </Typography>
               <Typography sx={{ fontSize: "10px" }}>
-                City : {PersonalInfoData.City}
+                State : {PersonalInfoData.State}
               </Typography>
               <Typography sx={{ fontSize: "10px" }}>
-                State : {PersonalInfoData.state}
+                Website : {PersonalInfoData.Website}
               </Typography>
-              <Typography sx={{ fontSize: "10px" }}>
+               <Typography sx={{ fontSize: "10px" }}>
                 PinCode : {PersonalInfoData.PinCode}
               </Typography>
             </div>
@@ -140,31 +140,29 @@ const Template_4 = () => {
                     </div>
                   );
                 })}
-            </div>
-            <hr style={{ color: "#f4f4f7" }} />
-            <Box sx={{ width: "45%", marginLeft: "10px" }}>
-              <Typography sx={{ marginBottom: "15px" }}>EDUCATION</Typography>
-    
-                    <div>
-                      <Typography sx={{ marginBottom: "20px" }}>
-                        {educationData.Type}
-                      </Typography>
-                      <Typography sx={{ fontSize: "12px" }}>
-                        {educationData.University}
-                      </Typography>
-                      <Typography
-                        sx={{ fontSize: "10px", marginBottom: "-5px" }}
-                      >
-                        {educationData.Degree}
-                      </Typography>
-                      <Typography sx={{ fontSize: "10px" }}></Typography>
-                      <span style={{ fontSize: "10px", fontWeight: "bold" }}>
-                        {educationData.StartYear} -
-                      </span>
-                      <span style={{ fontSize: "10px", fontWeight: "bold" }}>
-                        {educationData.EndYear}
-                      </span>
-                    </div>
+             </div>
+
+<hr style={{ color: "#f4f4f7"}} />
+<Box sx={{ width: "45%", marginLeft: "10px" }}>
+  <Typography sx={{ marginBottom: "10px" }}>EDUCATION</Typography>
+ 
+        <div>
+          <Typography sx={{ fontSize: "12px" }}>
+            {educationData.Type}
+          </Typography>
+          <Typography sx={{ fontSize: "10px" }}>
+            {educationData.University}
+          </Typography>
+          <Typography sx={{ fontSize: "10px" }}>
+            {educationData.Degree}
+          </Typography>
+          <span style={{ fontSize: "10px", fontWeight: "bold" }}>
+            {educationData.StartYear} -
+          </span>
+          <span style={{ fontSize: "10px", fontWeight: "bold" }}>
+            {educationData.EndYear}
+          </span>
+        </div>
 
               <hr style={{ color: "#f4f4f7" }} />
               <div style={{ marginTop: "10px" }}>
