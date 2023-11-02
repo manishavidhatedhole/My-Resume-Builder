@@ -84,10 +84,10 @@ const AboutUs = () => {
     }}
   >
    <img
-src="/public/images/about.png" // Provide the absolute path to the image in the "public" folder
-alt="Navbar Logo"
-className="h-8 pl-5"
-/>
+           src="./about.png" // Provide the absolute path to the image in the "public" folder
+           alt="Navbar Logo"
+           className="h-8 pl-5"
+        />
   </Box>
 </Grid>
         </Grid>
