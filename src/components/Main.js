@@ -26,7 +26,7 @@ const Main = () => {
 					TEMPLATES
 				</Typography>
 				<Typography sx={{ color: "grey", justifyContent: { xs: "center" } }}>
-					Select Template To Get Started
+					Please Select Template To Get Started
 				</Typography>
 			</Box>
  {/* Passing all the tempalate images data to tempGrid Component as a Props ********************** */}

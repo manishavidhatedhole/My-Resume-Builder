@@ -10,7 +10,7 @@ import { TextField, Container, Typography } from "@mui/material";
 import { useMyContext } from "../../context/Context";
 import { useNavigate } from "react-router-dom";
 import "./style.css";
-
+import image from "../formsDetails/image2.png"
 // MyResume Component Shows Your Saved Resumes *************************************
 
 const MyResumes = () => {
@@ -102,7 +102,7 @@ const MyResumes = () => {
               marginTop: "30px",
             }}
           >
-            please select template and built resume.
+            Please select template and built resume.
           </Typography>
 
           {/* Link path To create New Resume from Dashboard ***********************************/}
@@ -128,8 +128,8 @@ const MyResumes = () => {
                 boxShadow: mode === "dark" && "0px 0px 20px 5px grey",
                 width: mode === "light" ? "25vw" : "25vw",
               }}
-              src="./images/image2.jpg"
-              alt="#"
+              src={image}
+              alt="No Resume Created Yet!"
             />
           </Box>
         </Container>

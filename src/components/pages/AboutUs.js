@@ -4,6 +4,8 @@ import { Box } from "@mui/system";
 import { SocialMediaImg } from "../../data/Data";
 import { Link } from "react-router-dom";
 
+
+
 //  This Media Icons component  Displaying Social Media Icons********************************
 
 const MediaIcons = (props) => {
@@ -44,7 +46,7 @@ const AboutUs = () => {
               color="inherit"
               textTransform={"capitalize"}
             >
-              Welcome to my Resume Builder App!!!
+              Welcome to My Resume Builder App!!
               <Typography
                 sx={{
                   fontWeight: "bold",
@@ -54,36 +56,40 @@ const AboutUs = () => {
               >
                 Manisha Dhole.
               </Typography>
-              who came together to turn my shared vision into reality. My
+              Who came together to turn my shared vision into reality. My
               journey began with a simple idea - to empower job seekers like you
               with a user-friendly and fully responsive resume builder app.
               Using the power of React, we've crafted an application that
               simplifies the process of creating a standout resume.
               <br />
               My aim : Empower job seekers with responsive, user-centric
-              resumes. Your success starts here. Happy coding!
+              resumes. Your success starts here. Happy Resume Building!!
             </Typography>
           </Grid>
           <Grid
-            container
-            item
-            lg={6}
-            justifyContent="center"
-            order={{ xs: 2, sm: 2 }}
-          >
-            <Box
-              sx={{
-                width: "80%",
-                marginLeft: "100px",
-                marginTop: "50px",
-                marginBottom: "50px",
-                borderRadius: "50px",
-                display: "flex",
-              }}
-              component="img"
-              src="./images/About.png"
-            />
-          </Grid>
+  container
+  item
+  lg={6}
+  justifyContent="center"
+  order={{ xs: 2, sm: 2 }}
+>
+  <Box
+    sx={{
+      width: "80%",
+      marginLeft: "100px",
+      marginTop: "50px",
+      marginBottom: "50px",
+      borderRadius: "50px",
+      display: "flex",
+    }}
+  >
+   <img
+src="/public/images/about.png" // Provide the absolute path to the image in the "public" folder
+alt="Navbar Logo"
+className="h-8 pl-5"
+/>
+  </Box>
+</Grid>
         </Grid>
 
         <Box
