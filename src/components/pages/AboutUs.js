@@ -3,7 +3,7 @@ import { Grid, Typography, Container } from "@mui/material";
 import { Box } from "@mui/system";
 import { SocialMediaImg } from "../../data/Data";
 import { Link } from "react-router-dom";
-import { image } from "html2canvas/dist/types/css/types/image";
+
 
 //  This Media Icons component  Displaying Social Media Icons********************************
 
