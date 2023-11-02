@@ -3,8 +3,7 @@ import { Grid, Typography, Container } from "@mui/material";
 import { Box } from "@mui/system";
 import { SocialMediaImg } from "../../data/Data";
 import { Link } from "react-router-dom";
-
-
+import { image } from "html2canvas/dist/types/css/types/image";
 
 //  This Media Icons component  Displaying Social Media Icons********************************
 
@@ -67,29 +66,26 @@ const AboutUs = () => {
             </Typography>
           </Grid>
           <Grid
-  container
-  item
-  lg={6}
-  justifyContent="center"
-  order={{ xs: 2, sm: 2 }}
->
-  <Box
-    sx={{
-      width: "80%",
-      marginLeft: "100px",
-      marginTop: "50px",
-      marginBottom: "50px",
-      borderRadius: "50px",
-      display: "flex",
-    }}
-  >
-   <img
-           src="./about.png" // Provide the absolute path to the image in the "public" folder
-           alt="Navbar Logo"
-           className="h-8 pl-5"
-        />
-  </Box>
-</Grid>
+            container
+            item
+            lg={6}
+            justifyContent="center"
+            order={{ xs: 2, sm: 2 }}
+          >
+            <Box
+              sx={{
+                width: "80%",
+                marginLeft: "100px",
+                marginTop: "50px",
+                marginBottom: "50px",
+                borderRadius: "50px",
+                display: "flex",
+              }}
+              component="img"
+              src="./about.png"
+              alt="AboutUs"
+            />
+          </Grid>
         </Grid>
 
         <Box
