@@ -134,26 +134,7 @@ Type npm start in terminal to start the application after installing the depende
 |                 ├──package-lock.json
 |                 ├──package.json                                              
 ```
-## Components and Pages of Application:
-**Template Selection** - From this component user can choose their favourite template.
 
-![template selection](https://manishavidhatedhole.github.io/)
-
-**Details Filling Page** - From this component user can add their details of personal info, education, experience and skills.
-
-![perosnal](https://manishavidhatedhole.github.io/details-filling-page/personal-details)
-
-**Preview Page** - The user will see their resume in its final form in this component, and once everything is finished, they can use the save button to downlaod it in PDF format.
-
-![preview](https://manishavidhatedhole.github.io/preview)
-
-**My Resume Page** - This component shows the resume that user saved.
-
-![myresume page](https://manishavidhatedhole.github.io/my-resumes)
-
-**Abouts Us** 
-
-![About Us](https://manishavidhatedhole.github.io/about-us)
 
 
 ## Links for the project
