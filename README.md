@@ -35,12 +35,12 @@ Clone this repository in your local machine and install the needed dependencies
 Type npm start in terminal to start the application after installing the dependencies using npm install <package_name>
 
  ## Technologies and Libraries used
- .React
- .React-router-dom
- .React-hook-form
- .Redux
- .jspdf
- .Material UI and Icons
+- React
+- React-router-dom
+- React-hook-form
+- Redux
+- jspdf
+- Material UI and Icons
  
    
 ## Usage
