@@ -139,6 +139,5 @@ Type npm start in terminal to start the application after installing the depende
 
 ## Links for the project
 
-Deployment Link : Resume Builder (manishavidhatedhole.github.io)
-
+Deployment Link : https://manishavidhatedhole.github.io/
 Youtube Link : 
