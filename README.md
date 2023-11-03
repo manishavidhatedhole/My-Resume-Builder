@@ -80,3 +80,8 @@ npm install
 -**Thank you for choosing my Resume Builder Website.** 
 
 >>>>>>> 8b385631110112772e937030dad60afc855f98df
+
+Application folder structure
+___Public/
+         ___images/
+         ___index.html
