@@ -3,7 +3,7 @@ import { Grid, Typography, Container } from "@mui/material";
 import { Box } from "@mui/system";
 import { SocialMediaImg } from "../../data/Data";
 import { Link } from "react-router-dom";
-
+import about from "../pages/about.png"
 
 //  This Media Icons component  Displaying Social Media Icons********************************
 
@@ -55,14 +55,15 @@ const AboutUs = () => {
               >
                 Manisha Dhole.
               </Typography>
-              Who came together to turn my shared vision into reality. My
-              journey began with a simple idea - to empower job seekers like you
-              with a user-friendly and fully responsive resume builder app.
+              My journey began with a simple idea - to empower job seekers like you
+              with a user-friendly and fully responsive resume builder app.. I'm sure it will be 
+              a valuable resource for many people. 
               Using the power of React, we've crafted an application that
               simplifies the process of creating a standout resume.
               <br />
               My aim : Empower job seekers with responsive, user-centric
-              resumes. Your success starts here. Happy Resume Building!!
+              resumes. I hope this information helps you find what you're looking for!
+               Your success starts here. Happy Resume Building!!
             </Typography>
           </Grid>
           <Grid
@@ -82,7 +83,7 @@ const AboutUs = () => {
                 display: "flex",
               }}
               component="img"
-              src="./about.png"
+              src={about}
               alt="AboutUs"
             />
           </Grid>
