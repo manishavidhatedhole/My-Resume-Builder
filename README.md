@@ -145,4 +145,8 @@ Application Folder Structure
 |                 ├──package.json                                              
 
 
+
+
+![Screenshot 2023-11-03 140428](https://github.com/manishavidhatedhole/My-Resume-Builder/assets/130236284/82ac6de7-88bc-4709-af1f-b4be5365459b)
+
    
