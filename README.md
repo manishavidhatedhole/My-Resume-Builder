@@ -1,14 +1,13 @@
 AlmaBetter Frontend Capstone Project
-# Resume Builder App([Website] https://manishavidhatedhole.github.io/My-Resume-Builder/
-=======
 
-Introduction
+
+## Resume-Builder
 
 Introducing Resume Builder, the ultimate React application that empowers you to craft eye-catching resumes like never before. You can easily customise your resume with Resume Builder's user-friendly interface to highlight your unique skills and professional experience..
 Stand out from the crowd and make a lasting impression with Resume Builder, the perfect tool to land your dream job. Start building your future today!
 Just select template - Fill in the details and voila! Your resume is ready to preview and download.
 
-Features
+## Features
 
 My Resume Builder App(Website) offers the following key features:
 
@@ -30,12 +29,12 @@ Follow these instructions to set up and run the project on your local machine.:
 
 **Clone the Repository**: Clone this repository to your local machine.
 
-   Installation
+ ## Installation
 Clone this repository in your local machine and install the needed dependencies
 
 Type npm start in terminal to start the application after installing the dependencies using npm install <package_name>
 
- Technologies and Libraries used
+ ## Technologies and Libraries used
  .React
  .React-router-dom
  .React-hook-form
@@ -44,7 +43,7 @@ Type npm start in terminal to start the application after installing the depende
  .Material UI and Icons
  
    
-Usage
+## Usage
 
 - **Creating a Resume**: Choose a template, Click the "USE TEMPLATE" button to begin building your resume. Fill in your details, and customize your resume content.
 
@@ -52,18 +51,9 @@ Usage
 
 - **Downloading a Resume**: Once you're satisfied with your resume, use the download options to export it in PDF format.
 
-
-**Links for the project**
-- **AlmaBetter Front-End Capstone Project** ([WebLink]( https://manishavidhatedhole.github.io/My-Resume-Builder/]))
-
-- ManishaDhole ([GitHub Profile]( https://github.com manishavidhatedhole/My-Resume-Builder/))**
-
-- ManishaDhole ([GitHub Profile]( https://manishavidhatedhole.github.io/My-Resume-Builder/)
-
-
 -**Just select template - Fill in the details and voila! Your resume is ready to preview and download.** 
 
-Application Folder Structure
+## Application Folder Structure
 ```
 ├── public/
 │	├── index.html
@@ -144,3 +134,30 @@ Application Folder Structure
 |                 ├──package-lock.json
 |                 ├──package.json                                              
 ```
+## Components and Pages of Application:
+**Template Selection** - From this component user can choose their favourite template.
+
+![template selection](https://manishavidhatedhole.github.io/)
+
+**Details Filling Page** - From this component user can add their details of personal info, education, experience and skills.
+
+![perosnal](https://manishavidhatedhole.github.io/details-filling-page/personal-details)
+
+**Preview Page** - The user will see their resume in its final form in this component, and once everything is finished, they can use the save button to downlaod it in PDF format.
+
+![preview](https://manishavidhatedhole.github.io/preview)
+
+**My Resume Page** - This component shows the resume that user saved.
+
+![myresume page](https://manishavidhatedhole.github.io/my-resumes)
+
+**Abouts Us** 
+
+![About Us](https://manishavidhatedhole.github.io/about-us)
+
+
+## Links for the project
+
+Deployment Link :
+
+Youtube Link : 
