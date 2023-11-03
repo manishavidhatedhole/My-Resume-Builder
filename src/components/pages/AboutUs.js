@@ -33,11 +33,11 @@ const AboutUs = () => {
         <Grid container direction="row" alignItems="center" sx={{ mt: 8 }}>
           <Grid item xs={12} lg={6} order={{ xs: 1, sm: 1 }}>
             <Typography
-              variant="h2"
+              variant="h5"
               color="inherit"
-              sx={{ mb: 4, mt: 4, fontFamily: "Segoe UI", fontWeight: "500" }}
+              sx={{ mb: 4, mt: 4, fontFamily: "Segoe UI", fontWeight: "bold" }}
             >
-              Resume Builder
+              " Welcome to My Resume Builder ! "
             </Typography>
             <Typography
               marginBottom={5}
@@ -45,26 +45,21 @@ const AboutUs = () => {
               color="inherit"
               textTransform={"capitalize"}
             >
-              Welcome to My Resume Builder App!!
-              <Typography
-                sx={{
-                  fontWeight: "bold",
-                  color: "red",
-                  letterSpacing: 2,
-                }}
-              >
-                Manisha Dhole.
+               <Typography>               
               </Typography>
-              My journey began with a simple idea - to empower job seekers like you
-              with a user-friendly and fully responsive resume builder app.. I'm sure it will be 
-              a valuable resource for many people. 
-              Using the power of React, we've crafted an application that
-              simplifies the process of creating a standout resume.
-              <br />
-              My aim : Empower job seekers with responsive, user-centric
-              resumes. I hope this information helps you find what you're looking for!
-               Your success starts here. Happy Resume Building!!
-            </Typography>
+              "I understand the importance of creating a professional and impactful resume. 
+          I believe that a well-crafted resume can make a significant difference in your job search, helping you stand out from the competition
+          and land your dream job.<br/>
+          <br/>My Resume Builder is designed to simplify the resume creation process, offering a user-friendly interface
+          and a wide range of customizable templates. Whether you're a recent graduate, a seasoned professional, or making a career transition,
+          my platform provides the tools and resources you need to create a compelling resume that highlights your skills, experience, 
+          and achievements."<br>
+          </br>
+          Start building your future today!
+          <br></br>
+          Share with Your Friends.
+          
+             </Typography>
           </Grid>
           <Grid
             container
@@ -84,7 +79,6 @@ const AboutUs = () => {
               }}
               component="img"
               src={about}
-              alt="AboutUs"
             />
           </Grid>
         </Grid>

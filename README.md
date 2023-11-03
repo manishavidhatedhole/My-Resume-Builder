@@ -1,25 +1,14 @@
-<<<<<<< HEAD
+AlmaBetter Frontend Capstone Project
 # Resume Builder App([Website] https://manishavidhatedhole.github.io/My-Resume-Builder/
 =======
-# Resume Builder App([Website]( https://manishavidhatedhole.github.io/My-Resume-Builder/))
->>>>>>> 8b385631110112772e937030dad60afc855f98df
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Features](#features)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [WebLink](#weblink)
-
-## Introduction
+Introduction
 
 Introducing Resume Builder, the ultimate React application that empowers you to craft eye-catching resumes like never before. You can easily customise your resume with Resume Builder's user-friendly interface to highlight your unique skills and professional experience..
 Stand out from the crowd and make a lasting impression with Resume Builder, the perfect tool to land your dream job. Start building your future today!
 Just select template - Fill in the details and voila! Your resume is ready to preview and download.
 
-## Features
+Features
 
 My Resume Builder App(Website) offers the following key features:
 
@@ -35,24 +24,27 @@ My Resume Builder App(Website) offers the following key features:
 
 - **Responsive Design**: The website is responsive, ensuring it works well on both desktop and mobile devices.
 
-## Getting Started
+Getting Started
 
 Follow these instructions to set up and run the project on your local machine.:
 
-1. **Clone the Repository**: Clone this repository to your local machine.
+**Clone the Repository**: Clone this repository to your local machine.
 
-   bash
-   [https://github.com/your-username/resume-builder-app.git]
+   Installation
+Clone this repository in your local machine and install the needed dependencies
 
-2. **Installation**: Navigate to the project directory and install the required dependencies.
+Type npm start in terminal to start the application after installing the dependencies using npm install <package_name>
 
-cd resume-builder-app
-npm install
-
-3. **Get Started**: Type "npm start" in terminal to get started.
-
+ Technologies and Libraries used
+ .React
+ .React-router-dom
+ .React-hook-form
+ .Redux
+ .jspdf
+ .Material UI and Icons
+ 
    
-## Usage
+Usage
 
 - **Creating a Resume**: Choose a template, Click the "USE TEMPLATE" button to begin building your resume. Fill in your details, and customize your resume content.
 
@@ -60,25 +52,97 @@ npm install
 
 - **Downloading a Resume**: Once you're satisfied with your resume, use the download options to export it in PDF format.
 
-## Contributing
 
-<<<<<<< HEAD
-- ManishaDhole ([GitHub Profile]( https://manishavidhatedhole.github.io/My-Resume-Builder/)**
-=======
-- ManishaDhole ([GitHub Profile]( https://github.com manishavidhatedhole/My-Resume-Builder/))**
->>>>>>> 8b385631110112772e937030dad60afc855f98df
-- 
-
-## WebLink
-
-<<<<<<< HEAD
+**Links for the project**
 - **AlmaBetter Front-End Capstone Project** ([WebLink]( https://manishavidhatedhole.github.io/My-Resume-Builder/]))
 
--**Thank you for choosing our Resume Builder Website.** 
+- ManishaDhole ([GitHub Profile]( https://github.com manishavidhatedhole/My-Resume-Builder/))**
 
-=======
-- **AlmaBetter Front-End Capstone Project** ([WebLink]( https://manishavidhatedhole.github.io/My-Resume-Builder/))
+- ManishaDhole ([GitHub Profile]( https://manishavidhatedhole.github.io/My-Resume-Builder/)
 
--**Thank you for choosing my Resume Builder Website.** 
 
->>>>>>> 8b385631110112772e937030dad60afc855f98df
+-**Just select template - Fill in the details and voila! Your resume is ready to preview and download.** 
+
+Application Folder Structure
+
+├── public/
+│	├── index.html
+│    	├──images/
+│		├── almalogo.png
+│		├── profile.png
+│		├── resume.png
+│		├── about.png	
+├──src/
+│	├──App.js
+│	├──App.css
+│	├──index.js
+│	├──index.css
+│	├──Components/
+│		├──formsDetails
+│			├──Education.js
+│			├──image2.png
+│			├──KeySkills.js
+│			├──PearsonalInfo.js
+│			├──ProfileSection.js
+|                                         ├──WorkExperience.js
+│   	├── pages/
+│		├──about.png
+│		├──AboutUs.js
+│		├──DetailsFilling.js
+│		├──DrawerComp.js
+│		├── MyResumes.js
+|                           ├──style.css
+│	├──LDtoggle.js
+│          ├──Main.js
+│	├──Navbar.js
+│           ├──Preview.js
+|            ├──TempGrid.js
+│	            ├──context
+|            ├──Data/
+|                      ├──images/
+|                                ├──Email.png
+|                                ├──fb.png
+|                                ├──GIthub.png
+|                                ├──LIn.png
+|                                ├──tempalte-1.png
+|                                ├──tempalte-2.png
+|                                ├──tempalte-3.png
+|                                ├──tempalte-4.png
+|                                ├── twt.png
+|                                ├── wApp.png
+|                          ├── Data.js
+|             ├──Images/
+|                                ├──darkmodelogo.png
+|                                ├──download.png
+|                                ├──logo-image.png
+|                                ├──profile.png
+|            ├──Redux/
+|                           ├── actions/
+|                                 ├──EducationAction.js
+|                                 ├──KeySkillsActions.js
+|                                  ├── PersonalInfoAction.js  
+|                                  ├──ProfileAction.js
+|                                  ├──SetTemplateAction.js
+|                                  ├──WorkExperienceAction.js
+|                            ├── actionsTypes/
+|                                   ├──ActionsTypes.js      
+|            ├──reducers/
+|                      ├──EducationDetailsReducer.js
+|                      ├──KeySkillsReducer.js
+|                      ├──PersonalInfoReducer.js
+|                      ├──ProfileInfoReducer.js
+|                      ├──SetTemplateReducer.js
+|                      ├──WorkExpReducer.js      
+|                ├──Index.js
+|                ├──RootReducer.js
+|                ├── Store.js           
+|          ├──templates/
+|                              ├──Template_1.js       
+|                              ├──Template_2.js    
+|                              ├──Template_3.js
+|                              ├──Template_4.js    
+|                 ├──package-lock.json
+|                 ├──package.json                                              
+
+
+   
