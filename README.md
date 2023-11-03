@@ -81,7 +81,76 @@ npm install
 
 >>>>>>> 8b385631110112772e937030dad60afc855f98df
 
-Application folder structure
-___Public/
-         ___images/
-         ___index.html
+├── public/
+│	├── index.html
+│    	├──images/
+│		├── template1.png
+│		├── template2.png
+│		├── template3.png
+│		├── template4.png	
+├──src/
+│	├──App.js
+│	├──App.css
+│	├──App.test.js
+│	├──index.css
+│	├──index.js
+│	├──setupTests.js
+│	├──Components/
+│		├──images/
+│			├──LOGO.png
+│			├──Right.png
+│			├──aboutus.png
+│			├──download.png
+│			├──nodata.png
+│   	├── Education.jsx
+│		├──GettingStarted.jsx
+│		├──Keyskills.jsx
+│		├──Myresume.jsx
+│		├──PersonalInformation.jsx
+│		├──Workexperience.jsx
+│	├──Data/
+│		├──data.js
+│	├──Pages/
+│		├──About US/
+│			├──Aboutus.jsx
+│		├──Details Filing/
+│			├──Detailfilling.jsx
+│			├──sidebar.css 
+│		├──Home/
+│			├──TempleteCard.jsx
+│			├──Templetes.jsx
+│		├──Preview/
+│			├──Preview,jsx
+│	├──Redux/
+│		├──actions/
+│			├──actions.js
+│			├──saveresume.js
+│			├──setcontact.js
+│			├──seteducation.js
+│			├──setexperience.js
+│			├──setkeyskills.js
+│			├──settemplate.js
+│		├──constants/
+│			├──typeCodes.js
+│		├──reducers/
+│			├──initialState.js
+│			├──rootReducer.js
+│			├──saveresume.js
+│			├──setcontact.js
+│			├──seteducation.js
+│			├──setexperience.js
+│			├──setkeyskills.js
+│			├──settemplate.js
+│		├──store
+│			├──store.js
+│	├──Templetes/
+│		├──Resume1.css
+│		├──Resume1.jsx
+│		├──Resume2.jsx
+│		├──Resume3.css
+│		├──Resume3.jsx
+│		├──Resume4.css
+│		├──Resume4.jsx
+├──index.js   
+├──package-lock.json
+├──package.json
